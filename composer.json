@@ -1,15 +1,16 @@
 {
-  "name": "tachii/artisan-gui",
+  "name": "wislert/artisan-gui",
   "type": "library",
   "description": "Beautiful package for [laravel:artisan] gui for cool kids.",
   "license": "MIT",
   "minimum-stability": "beta",
   "require": {
-    "php": "^8.4|^8.5",
+    "php": "^8.2",
     "laravel/framework": "^10.0|^11.0|^12.0|^13.0"
   },
   "replace": {
-    "infureal/artisan-gui": "*"
+    "infureal/artisan-gui": "*",
+    "tachii/artisan-gui": "*"
   },
   "autoload": {
     "psr-4": {
